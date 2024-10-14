@@ -1,1 +1,20 @@
-1
+name: Run
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+
+jobs:
+  build:
+
+    if: github.actor == github.repository_owner
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@main
+    - name: Run
+      uses: coactions/setup-xvfb@main
+      with:
+        run: dotnet run
+      env: 
+        CONF: ${{ secrets.CONF }}
