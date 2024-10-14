@@ -1,6 +1,6 @@
 # Note163Checkin
 
-特别鸣谢：https://github.com/xb651962375/Note163Checkin
+特别鸣谢：https://github.com/BlueHtml/Note163Checkin
 
 ## 一、Fork 仓库
 
