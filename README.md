@@ -1,5 +1,7 @@
 # Note163Checkin
 
+特别鸣谢：https://github.com/xb651962375/Note163Checkin
+
 ## 一、Fork 仓库
 
 **点击右上角的`Fork`**
