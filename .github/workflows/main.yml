@@ -4,6 +4,10 @@ on:
   workflow_dispatch:
   repository_dispatch:
 
+  # UTC时间，对应Beijing时间 7：16
+  schedule:
+      - cron: "16 23 * * *"
+
 jobs:
   build:
 
