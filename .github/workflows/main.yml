@@ -1,12 +1,13 @@
 name: Run
 
 on:
+
+  # UTC时间，+8小时=北京时间，对应Beijing时间 9：01
+  schedule:
+      - cron: "11 1 * * *"
+
   workflow_dispatch:
   repository_dispatch:
-
-  # UTC时间，对应Beijing时间 9：01
-  schedule:
-      - cron: "01 1 * * *"
 
 jobs:
   build:
