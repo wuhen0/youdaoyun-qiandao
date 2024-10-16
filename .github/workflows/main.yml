@@ -4,7 +4,7 @@ on:
 
   # UTC时间，+8小时=北京时间，对应Beijing时间 9：01
   schedule:
-      - cron: "11 1 * * *"
+      - cron: "8 1 * * *"
 
   workflow_dispatch:
   repository_dispatch:
